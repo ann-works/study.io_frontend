@@ -26,8 +26,9 @@ const Testimonial = () => {
   ];
 
   return (
+    <>
+    <h1>Testimonials</h1>
     <div className="testimonials">
-      <h1>Testimonials</h1>
       {testimonials.map(test => (
         <div key={test.id} className="testimonial">
           <p>{test.content}</p>
@@ -35,6 +36,7 @@ const Testimonial = () => {
         </div>
       ))}
     </div>
+    </>
   );
 }
 

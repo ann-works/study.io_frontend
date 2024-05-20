@@ -2,8 +2,8 @@ import React from 'react'
 import { IoCloseSharp, IoLibraryOutline } from "react-icons/io5";
 import { FcHome, FcReadingEbook,FcCollaboration,FcInfo } from "react-icons/fc";
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+// import { FaInstagram, FaFacebook } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 
 
 
@@ -50,11 +50,11 @@ const SideBar = ({ isActive, setIsActive }) => {
                     </li>
                     
                   </ul>
-                  <div className="social-icons">
+                  {/* <div className="social-icons">
                     <FaInstagram />
                     <FaXTwitter />
                     <FaFacebook />
-                  </div>
+                  </div> */}
                 </div>
         </div>
     </>
