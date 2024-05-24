@@ -19,27 +19,6 @@ const Home = () => {
       <div className="hero">
         <img src={require("../assets/banner-4.png")} alt="banner" />
       </div>
-      <div className="line"></div>
-      <div className="top">
-        <div className="row">
-          <div className="col">
-            <p>Explore our courses!</p>
-            <Link to={"/course"}>
-              <div className="back_to_course">
-                <FaAngleRight />
-              </div>
-            </Link>
-          </div>
-          <div className="col">
-            <p>Get your hand on our e-library</p>
-            <Link to={"/book"}>
-              <div className="back_to_course">
-                <FaAngleRight />
-              </div>
-            </Link>
-          </div>
-        </div>
-      </div>
       {/*   ____________Categories course card___________________   */}
       <section className="online-course-c">
         <h1>Categories</h1>
@@ -148,6 +127,27 @@ const Home = () => {
           </Swiper>
         </div>
       </section>
+      <div className="line"></div>
+      <div className="top">
+        <div className="row">
+          <div className="col">
+            <p>Explore our courses!</p>
+            <Link to={"/course"}>
+              <div className="back_to_course">
+                <FaAngleRight />
+              </div>
+            </Link>
+          </div>
+          <div className="col">
+            <p>Get your hand on our e-library</p>
+            <Link to={"/book"}>
+              <div className="back_to_course">
+                <FaAngleRight />
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
